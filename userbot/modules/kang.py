@@ -73,14 +73,14 @@ async def kang(args):
                     # pack
                     emoji = splat[1]
 
-            packname = f"a{user.id}_by_{user.username}_{pack}"
-            packnick = f"@{user.username}'s userbot pack {pack}"
+            packname = f"@iamomkarofficial kang Pack"
+            packnick = f"Omkar_kang{userid}"
             cmd = '/newpack'
             file = io.BytesIO()
 
             if not is_anim:
                 image = await resize_photo(photo)
-                file.name = "sticker.png"
+                file.name = "@iamomkarofficial_Sticker.png"
                 image.save(file, "PNG")
             else:
                 packname += "_anim"
